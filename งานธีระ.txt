@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+	float grade;
+	char name[30];
+	char score[30];
+	char dep[30];
+	printf ("Enter Your Name:");
+	scanf ("%s",name);
+	printf ("Enter Your Score:");
+	scanf("%f",&grade);
+	printf ("Enter Your Grade:");
+	scanf("%s",score);
+	printf("Enter Your Dep:");
+	scanf("%s",dep);
+	
+	printf("\n\n*********************************\n\n");
+	printf("Nmae: %s\n",name);
+	printf("Score: %f\n",grade);
+	printf("Grade: %s\n",score);
+	printf("Dep: %s",dep);
+	printf("\n\n*********************************");
+	
+	
+	return 0;
+}
